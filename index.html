@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tailwind Practice Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body
+    class="container mx-auto min-h-screen bg-[url('/images/Image.png')] bg-cover bg-center px-10 py-5 relative"
+  >
+    <nav class="flex items-center">
+      <img src="/images/logo.png" alt="logo-icon" class="w-40" />
+      <ul class="flex-1 text-center">
+        <li class="inline-block text-center">
+          <a href="#" class="text-white no-underline text-lg mx-5">Home</a>
+        </li>
+        <li class="inline-block text-center">
+          <a href="#about" class="text-white no-underline text-lg mx-5"
+            >About us</a
+          >
+        </li>
+        <li class="inline-block text-center">
+          <a href="#features" class="text-white no-underline text-lg mx-5"
+            >Features</a
+          >
+        </li>
+        <li class="inline-block text-center">
+          <a href="#Contact" class="text-white no-underline text-lg mx-5"
+            >Contact</a
+          >
+        </li>
+      </ul>
+      <img src="/images/cart.png" alt="cart-icon" class="w-8" />
+    </nav>
+    <div class="text-white mt-40 max-w-xl">
+      <h1 class="text-6xl font-semibold leading-snug">
+        Groceries<br />Delivery in 15mins
+      </h1>
+      <p>
+        Grocery offers a wide range of products, including fresh products,
+        meats, dairy, baked goods, and non-perishable items.
+      </p>
+      <div class="mt-10">
+        <a
+          href="#"
+          class="inline-block text-xl bg-yellow-400 rounded-3xl px-8 py-3 font-semibold border border-transparent hover:bg-transparent hover:border-yellow-400 hover:text-white hover:border"
+          >Order now</a
+        >
+      </div>
+    </div>
+    <div>
+      <img
+        src="images/grocery-image.png"
+        alt="shopping-man"
+        class="w-full xl:w-1/2 xl:absolute bottom-0 right-5"
+      />
+    </div>
+  </body>
+</html>
